@@ -64,3 +64,9 @@ audio, canvas, iframe, img, svg, video {
 img:not([src]) {
 	visibility: hidden;
 }
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
